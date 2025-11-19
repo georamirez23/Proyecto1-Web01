@@ -49,7 +49,35 @@ nav a:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   padding: 2rem;
   margin-bottom: 2rem;
+  
 }
+
+.card2 {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* Espaciado entre tarjetas */
+  justify-content: center;
+
+}
+
+card3 {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  gap: 4rem; /* Espaciado entre tarjetas */
+  display: flex;
+  justify-content: space-around; /* Distribución horizontal uniforme */
+  align-items: center;           /* Alineación vertical */
+  text-align: center;            /* Alineación horizontal del texto */
+}
+
 
 .card h2 {
   margin-top: 0;
@@ -78,7 +106,58 @@ nav a:hover {
 
 footer {
   background-color: #1abc9c;
-  color: white;
+  padding: 20px;
   text-align: center;
-  padding: 1rem;
+  font-size: 0.9em;
+  color: white;
+  display: flex;               /* Activar Flexbox */
+  justify-content: space-between; /* Distribuir columnas horizontalmente */
+  align-items: center;         /* Alinear verticalmente */
+  flex-wrap: wrap;             /* Permitir que las columnas se ajusten en pantallas pequeñas */
+}
+
+
+
+.social-media a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  display: inline-flex;
+  align-items: center;
+}
+
+.social-media img {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.hab1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  flex-wrap: wrap; /* Para que se adapte en pantallas pequeñas */
+}
+
+.hab1-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  width: 200px;       /* Aumenta el tamaño de la imagen */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.hab1-texto {
+  flex: 2;
+  min-width: 250px;
 }
